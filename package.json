@@ -1,0 +1,33 @@
+{
+  "name": "teachable-machine-webapp",
+  "version": "1.0.0",
+  "description": "WebML Marathon Project II - Creating a Teachable Machine WebML App using Transfer Learning and Layers Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordovaputra/teachable-machine-webapp.git"
+  },
+  "keywords": [
+    "Machine",
+    "Learning",
+    "WebML",
+    "AI"
+  ],
+  "author": "Cordova Putra Handri Ansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cordovaputra/teachable-machine-webapp/issues"
+  },
+  "homepage": "https://github.com/cordovaputra/teachable-machine-webapp#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
