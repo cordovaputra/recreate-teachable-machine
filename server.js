@@ -12,7 +12,7 @@ app.use('/image', express.static(__dirname + 'public/image'));
 
 // Listen to HTML
 app.get('', (req, res) => {
-    res.sendFile(__dirname + '/views/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 })
 
 app.listen(3000,() => console.log('Server running on port 3000'));

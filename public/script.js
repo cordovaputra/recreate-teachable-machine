@@ -64,7 +64,7 @@ C. INTEGRATE & LOAD DATA menggunakan Layer Models MobileNet
 async function loadDataModel(){
     const URL = 'https://storage.googleapis.com/jmstore/TensorFlowJS/EdX/SavedModels/mobilenet-v2/model.json'
     mobilenet = await tf.loadLayersModel(URL);
-    STATUS.innerText = 'Machine Learning model loaded successfully!';
+    STATUS.innerText = 'Model loaded successfully. Tap Enable Webcam to begin';
     //mobilenet.summary(null, null, customConsolePrint); //print summary with custom console
 
     const layer = mobilenet.getLayer('global_average_pooling2d_1');
@@ -188,7 +188,7 @@ function dataGatherLoop() {
 
         STATUS.innerText = '';
         for (let n = 0; n < CLASS_NAMES.length; n++) {
-            STATUS.innerText += CLASS_NAMES[n] + '  data count: ' + examplesCount[n] + '. ';
+            STATUS.innerText += CLASS_NAMES[n] + '  data count: ' + examplesCount[n] + '. ' ;
         }
         window.requestAnimationFrame(dataGatherLoop);
     }
