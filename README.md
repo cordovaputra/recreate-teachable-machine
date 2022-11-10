@@ -1,4 +1,4 @@
-# teachable-machine-webapp
+# recreate-teachable-machine
 WebML Marathon Project II - Creating a Teachable Machine WebML App using Transfer Learning and Layers Model
 
 ## How to run and test this project?
